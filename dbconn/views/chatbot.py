@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, jsonify, redirect
 
-bp = Blueprint('chatbot', __name__, url_prefix='/edu_chatbot')
+bp = Blueprint('chatbot', __name__, url_prefix='/edu_student')
 
 
 @bp.route('/')

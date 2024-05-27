@@ -23,4 +23,5 @@ def create_app():
     app.register_blueprint(chatbot.bp)
 
 
+
     return app
