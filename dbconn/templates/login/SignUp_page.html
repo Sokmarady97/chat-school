@@ -45,11 +45,8 @@
       }
     }
 
-    .kakao {
-      height: 40px;
-    }
-
-    .google {
+    .icon-small {
+      width: 40px;
       height: 40px;
     }
 
@@ -159,8 +156,8 @@
                     </div>
 
                     <!-- Submit button -->
-                    <a href="./Login_page.html" id="signupButton" type="submit" data-mdb-button-init
-                      data-mdb-ripple-init class="btn btn-outline-dark  mb-4">
+                    <a href="./" id="signupButton" type="submit" data-mdb-button-init data-mdb-ripple-init
+                      class="btn btn-outline-dark  mb-4">
                       Sign up
                     </a>
 
@@ -169,14 +166,14 @@
                       <p>or sign up with:</p>
                       <button type="button" data-mdb-button-init data-mdb-ripple-init
                         class="btn btn-outline-link btn-floating mx-1">
-                        <img class="kakao" src="./Images/kakao.png" alt="kakao">
-                        <i class="fab fa-kakao-f"></i>
+                        <img src="{{ url_for('static', filename='./images/kakao.png') }}" alt="kakao icon"
+                          class="icon-small">
                       </button>
 
                       <button type="button" data-mdb-button-init data-mdb-ripple-init
                         class="btn btn-outline-link btn-floating mx-1">
-                        <img class="google" src="./Images/google.png" alt="google">
-                        <i class="fab fa-twitter"></i>
+                        <img src="{{ url_for('static', filename='./images/google.png') }}" alt="gmail icon"
+                          class="icon-small">
                       </button>
                     </div>
                   </form>

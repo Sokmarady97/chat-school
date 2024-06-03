@@ -44,8 +44,8 @@
       }
     }
 
-    .kakao,
-    .google {
+    .icon-small {
+      width: 50px;
       height: 50px;
     }
 
@@ -95,7 +95,7 @@
                     </div>
 
                     <!-- Submit button -->
-                    <a class="btn btn-dark col-lg-4 col-md-3 mt-3 my-5 mt-4" href="./Login_page.html" id="submitButton"
+                    <a class="btn btn-dark col-lg-4 col-md-3 mt-3 my-5 mt-4" href="./" id="submitButton"
                       role="button">Submit</a>
 
                     <!-- Register buttons -->
@@ -103,14 +103,14 @@
                       <p>or sign up with:</p>
                       <button type="button" data-mdb-button-init data-mdb-ripple-init
                         class="btn btn-outline-link btn-floating mx-1 mt-2">
-                        <img class="kakao" src="./Images/kakao.png" alt="kakao">
-                        <i class="fab fa-kakao-f"></i>
+                        <img src="{{ url_for('static', filename='./images/kakao.png') }}" alt="kakao icon"
+                          class="icon-small">
                       </button>
 
                       <button type="button" data-mdb-button-init data-mdb-ripple-init
                         class="btn btn-outline-link btn-floating mx-1 mt-2">
-                        <img class="google" src="./Images/google.png" alt="google">
-                        <i class="fab fa-twitter"></i>
+                        <img src="{{ url_for('static', filename='./images/google.png') }}" alt="gmail icon"
+                          class="icon-small">
                       </button>
                     </div>
                   </form>
