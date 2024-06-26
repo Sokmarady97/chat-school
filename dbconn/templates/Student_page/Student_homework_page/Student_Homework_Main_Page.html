@@ -78,19 +78,19 @@
                             </div>
                         </nav>
                     
-                    <li><a class="nav-link px-3 link-body-emphasis" href="{{ url_for('teacher_main.show_teacher_DashboardPage') }}">홈</a></li>
+                    <li><a class="nav-link px-3 link-body-emphasis" href="{{ url_for('student_main.chat_up_call') }}">홈</a></li>
 
                     <div class="dropdown text-end">                            
                       <a href="#" class="nav-link link-body-emphasis text-decoration-none dropdown-toggle"
                           data-bs-toggle="dropdown" aria-expanded="false">과제
                       </a>
                       <ul class="dropdown-menu" data-bs-popper="static">
-                            <li><a class="dropdown-item" href="{{ url_for('teacher_main.show_teacher_homeworkPage') }}">과제 확인</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('teacher_main.show_teacher_homeworkMakeWithAIPage') }}">AI 문제 생성</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('student_main.show_student_homeworkmain') }}">과제 확인</a></li>
+                            <li><a class="dropdown-item" href="#">AI 문제 생성</a></li>
                       </ul>
                     </div>
 
-                    <li><a class="nav-link px-3 link-body-emphasis" href="{{ url_for('teacher_main.show_teacher_questionPage') }}">질문 게시판</a></li>
+                    <li><a class="nav-link px-3 link-body-emphasis" href="{{ url_for('student_main.show_student_questionmain') }}">질문 게시판</a></li>
 
                     <div class="dropdown text-end">
                         <a href="#" class="nav-link link-body-emphasis text-decoration-none dropdown-toggle"
@@ -99,7 +99,7 @@
                         <ul class="dropdown-menu" data-bs-popper="static">
                             <li><a class="dropdown-item" href="#">오늘의 학습</a></li>
                             <li><a class="dropdown-item" href="#">파일 올리기</a></li>
-                            <li><a class="nav-link px-3 link-body-emphasis" href="{{ url_for('teacher_main.show_teacher_memoPage') }}">메모장</a></li>
+                            <li><a class="nav-link px-3 link-body-emphasis" href="#">메모장</a></li>
                         </ul>
                     </div>
                 </ul>

@@ -5,3 +5,4 @@ dbconn/config.py
 *.pyc
 __pycache__/
 dbtest/
+dbconn/ai_server_config.py
