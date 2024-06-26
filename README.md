@@ -92,16 +92,16 @@ https://www.figma.com/design/bZpRwLJrjpONQQbI9MDv5C/Education-Ai-Chatbot-for-Des
   
 ### 2. 코드 설계  
 학생페이지와 선생님페이지를 구분하고 협업 할 때 알아보기 쉽게 하기위해 blueprint 형식으로 구성  
-	dbconn
-	     ⊢  static  
-	     ⊢  templates  
-	     ⊢  views  
-	     ⊢ __init__.py  
-	     ⊢  connect.py  
-	     ⊢  models.py  
-	     ⊢       ⋮  
-	⊢  wsgi.py  
-	⊢      ⋮
+>	dbconn  
+>	     ⊢  static  
+>	     ⊢  templates  
+>	     ⊢  views  
+>	     ⊢ __init__.py  
+>	     ⊢  connect.py  
+>	     ⊢  models.py  
+>	     ⊢       ⋮  
+>	⊢  wsgi.py  
+>	⊢      ⋮
   
 - connect.py  
 > DB연결, 테이블 생성 및 데이터 수정 코드  
@@ -110,7 +110,7 @@ https://www.figma.com/design/bZpRwLJrjpONQQbI9MDv5C/Education-Ai-Chatbot-for-Des
 - wsgi.py  
 > wsgi서버 엔트리포인트  
   
-###3. AWS 서버 구축  
+### 3. AWS 서버 구축  
 서비스 배포를 위한 AWS의 클라우드 서버를 이용하여 웹 서비스 운영 테스트   
 - **virtualenv**를 이용한 가상환경 생성  
 - 프로젝트에 사용된 라이브러리 설치  
