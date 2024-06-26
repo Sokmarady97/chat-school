@@ -92,11 +92,11 @@ https://www.figma.com/design/bZpRwLJrjpONQQbI9MDv5C/Education-Ai-Chatbot-for-Des
   
 ### 2. 코드 설계  
 학생페이지와 선생님페이지를 구분하고 협업 할 때 알아보기 쉽게 하기위해 blueprint 형식으로 구성  
->	dbconn  
+>	chatschool  
 > 　|　　⊢　static  
 > 　|　　⊢　templates  
 > 　|　　⊢　views  
-> 　|　　⊢　\__init\__.py  
+> 　|　　⊢　\_\_init\_\_.py  
 > 　|　　⊢　connect.py  
 > 　|　　⊢　models.py  
 > 　|　　⊢　　⋮  
